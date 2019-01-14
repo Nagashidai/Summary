@@ -1,0 +1,13 @@
+a[title] { color: skyblue;}
+a[href="http://google.com"] { color: orange;}
+a[class="search"] { color: orange; }
+
+ul li:first-child { color: red; }
+
+a:link { color: vioret; }
+a:visited { color: orange; }
+a:hover { color: pink; }
+a:active { color: red; }
+
+/*p:first-line { color: skyblue; }*/
+/*p:first-letter { color: skyblue; }*/

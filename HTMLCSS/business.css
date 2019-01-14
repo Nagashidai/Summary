@@ -1,0 +1,479 @@
+@charset "UTF-8";
+
+body  {margin: 0;
+      font-family: ' メイリオ ',
+      'Hiragino KAku Gothic Pro', sans-serif}
+/* ボックスの左右に確保する余白*/
+.box1, .boxA, .box2-inner, .box5-inner
+        {padding-left: 10px;
+        padding-right: 10px;}
+
+.box2   {background-color: #7cbac1}
+
+/*BOX5の上に区切り線を入れる*/
+.box5         {border-top: solid 1px #dddddd;}
+
+/*ボックスの上下の問題*/
+.box1        {padding-top: 8px;
+              padding-bottom: 8px;}
+
+.box3        {padding-top: 40px;
+              padding-bottom: 30px;}
+
+.box4        {padding-top: 40px;
+              padding-bottom: 30px;}
+
+.box5        {padding-top: 15px;
+              padding-bottom: 15px;}
+
+.top .boxA    {padding-top: 20px;
+              padding-bottom: 20px;}
+
+/* サイト名 */
+.site h1 a {color: #83a4a8;
+            text-decoration: none}
+
+.site h1    {margin: 0;
+            font-size: 30px;
+            font-family: 'Paytone One', sans-serif;
+            font-weight: normal}
+/* 記事*/
+.kiji h1    {margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 36px;}
+
+.kiji h2    {margin-top: 40px;
+            padding-left: 10px;
+            border-left: solid 10px #7cbac1;
+            font-weight: normal;}
+
+.kiji p     {margin-top: 0;
+            margin-bottom: 20px;}
+
+.kiji img   {max-width: 100%;
+            height: auto;}
+
+.kijiinfo   {margin-bottom: 20px;
+            margin-top: -10px;}
+
+.kijiinfo i {margin-right: 5px;
+            color: #aaaaaa;
+            font-size: 20px;}
+
+/* 記事種類ラベル　（横並び）*/
+
+.kijicat       {margin-bottom: 25px;}
+
+.kijicat ul    {margin: 0;
+                padding: 0;
+                list-style: none;}
+
+.kijicat li a  {display: block;
+                margin-right: 5px;
+                padding: 3px 5px;
+                color: #ffffff;
+                border-radius: 2px;
+                background-color: #75dbe7;
+                font-size: 12px;
+                text-decoration: none}
+
+.kijicat li a:hover  {background-color:  #94ecf6;}
+
+.kijicat ul:after  {content: "";
+                    display: block;
+                    clear: both}
+
+.kijicat li    {float: left;
+                width: auto}
+
+.share          {margin-top: 40px;}
+
+.share .fa fa-twitter  {padding-right: 3px;}
+
+.share ul       {margin: 0;
+                padding: 0;
+                list-style: none;}
+
+.share li       {float: left;
+                width: 33.333%;}
+
+.share li a     {display: block;
+                padding: 10px 5px;
+                color: #ffffff;
+                font-size: 14px;
+                text-align: center;
+                text-decoration: none;}
+
+.share .share-tw  {background-color: #1da1f2;}
+.share .share-fb  {background-color: #3b5998;}
+.share .share-gp  {background-color: #dd4b39;}
+
+.share li a:hover {opacity: 0.8;}
+
+.share ul:after {content: "";
+                display: block;
+                clear: both;}
+
+.kanren ul      {margin: 0;
+                padding: 0;
+                list-style: none;}
+
+.kanren li a    {display: block;
+                padding: 5px;
+                color: #000000;
+                font-size: 14px;
+                text-decoration: none;}
+
+.kanren         {margin-top: 40px;
+                padding: 20px;
+                background-color: #f0f0d4;}
+
+.kanren h1      {margin-top: 0;
+                margin-bottom: 5px;
+                color: #727224;
+                font-size: 20px;
+                font-weight: normal;}
+
+.kanren li:hover {text-decoration: underline;}
+
+.kanren ul:after {content: "";
+                display: block;
+                clear: both;}
+
+.kanren li      {float: left;
+                width: 25%;}
+
+.kanren img     {max-width: 100%;
+                height: auto;
+                border: none;}
+/* バッジ */
+
+.pickup         {position: relative;}
+
+.badge          {width: 120px;
+                height: 120px;
+                padding: 25px;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                border-radius: 60px;
+                background-color: #00a0e9;
+                color: #ffffff;
+                text-align: center;
+                box-shadow: 0 0 4px #aaaaaa;
+                position: absolute;
+                top: 44%;
+                right: -15px;}
+
+.badge i        {display: block;
+                font-size: 40px;}
+
+
+/* 概要 */
+
+.gaiyou     {margin-bottom: 20px;}
+
+.gaiyou h1  {margin-top: 0;
+            margin-bottom: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+            font-size: 22px;}
+
+.gaiyou p   {margin-top: 0;
+            margin-bottom: 15px;
+            margin-left: 15px;
+            margin-right: 15px;
+            font-size: 14px;}
+
+.gaiyou img {max-width: 100%;
+            height: auto;
+            border: none;
+            margin-bottom: 15px;
+            vertical-align: bottom;}
+
+.gaiyou a   {display: block;
+            border: solid 1px #dddddd;
+            color: #000000;
+            text-decoration: none;}
+
+.gaiyou a:hover {box-shadow: 0 0 10px #dddddd;}
+
+.more       {display: inline-block;
+            padding: 5px 15px;
+            background-color: #3077be;
+            color: #ffffff;}
+
+.more i     {margin-left: 10px;}
+
+/* メニュー　（横並び）*/
+.menu ul    {margin: 0;
+            padding: 0;
+            list-style: none;}
+
+.menu li a  {display: block;
+            padding: 15px;
+            color: #000000;
+            font-size: 14px;
+            text-decoration: none}
+
+.menu li a:hover  {background-color:  #75dbe7}
+
+.menu ul:after  {content: "";
+                display: block;
+                clear: both}
+
+.menu li    {float: left;
+            width: auto}
+
+.sidemenu     {margin-bottom: 30px;}
+
+.sidemenu h1  {margin-top: 0;
+              margin-bottom: 10px;
+              border-bottom: dotted 2px #dddddd;
+              color: #666666;
+              font-size: 18px}
+
+.sidemenu ul  {margin: 0;
+              padding: 0;
+              list-style: none}
+
+.sidemenu li i  {margin-right: 5px;
+                color: #888888;}
+
+.sidemenu li a  {display: block;
+                padding: 5px;
+                color: #000000;
+                font-size: 14px;
+                text-decoration: none;}
+
+.sidemenu li a:hover  {background-color: #eeeeee}
+
+.osusume     {margin-bottom: 30px;}
+
+.osusume img  {width: 100%;
+              height: auto;
+              border: none;
+              vertical-align: bottom;}
+
+.osusume .text  {padding: 5px 10px;
+                background-color: rgba(0,0,0,0.5);
+                color: #ffffff;}
+
+.osusume h1  {margin-top: 0;
+              text-decoration: none;
+              margin-bottom: 10px;
+              border-bottom: dotted 2px #dddddd;
+              color: #666666;
+              font-size: 18px}
+
+.osusume ul  {margin: 0;
+              padding: 0;
+              list-style: none}
+
+.osusume li a  {display: block;
+                margin-bottom: 10px;
+                padding: 0px;
+                color: #000000;
+                font-size: 14px;
+                text-decoration: none;}
+
+.osusume li a:hover  {background-color: #eeeeee;
+                      opacity: 0.8;}
+
+/*おすすめ記事メニューのテキストを重ねる設定*/
+
+.osusume a      {position: relative}
+
+.osusume .text  {position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;}
+
+
+.ninki a::after {content: "";
+                display: block;
+                clear: both;}
+
+.ninki img      {float: left;
+                width: 60px;}
+
+.ninki .text    {float: none;
+                width: auto;
+                margin-left: 60px;
+                padding-left: 15px;}
+
+.ninki h1  {margin-top: 0;
+            margin-bottom: 10px;
+            border-bottom: dotted 2px #dddddd;
+            color: #666666;
+            font-size: 18px}
+
+.ninki span {cisplay: block;
+            color: #666666;
+            font-size: 12px;}
+
+.ninki ul  {margin: 0;
+            padding: 0;
+            list-style: none}
+
+.ninki li a  {display: block;
+              padding: 5px;
+              border-bottom: dotted 1px #dddddd;
+              color: #2288bb;
+              font-size: 14px;
+              text-decoration: none;}
+
+.ninki li a img {boder: none;}
+
+.ninki li a:hover  {background-color: #eeeeee}
+
+/* ページネーション */
+
+.pagenation   {text-align: center;}
+
+.pagenation ul  {display: inline-block;
+                margin: 0;
+                padding: 0;
+                list-style: none;}
+
+.pagenation li a    {display: block;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    padding: 5px 10px;
+                    border: solid 1px #aaaaaa;
+                    color: #000000;
+                    font-size: 14px;
+                    text-decoration: none;}
+
+.pagenation li a.active {background-color: #cccccc;}
+
+.pagenation li a:hover  {background-color: #eeeeee;}
+
+.pagenation ul:after  {content: "";
+                      display: block;
+                      clear: both;}
+
+.pagenation li        {float: left;
+                      width: auto;}
+
+.copyright p  {margin: 0;
+              color: #666666;
+              font-size: 14px}
+
+@media (max-width: 599px) {
+
+  .badge      {-ms-transform: scale(0.5);
+              -ms-transform-origin: right top;
+              -webkit-ms-transform: scale(0.5);
+              -webkit-transform-origin: right top;
+              transform: scale(0.5);
+              transform-origin: right top;
+              top: -8px;
+              right: 10px;}
+
+  .menu li a  {padding: 10px 3px;
+              font-size: 11px}
+
+  .site h1    {font-size: 20px}
+
+  .kiji h1    {font-size: 26px}
+
+  .box1       {padding-top: 4px;
+              padding-bottom: 4px;}
+
+  .box3       {padding-top: 25px}
+
+  .share span {display: inline-block;
+              text-indent: -9999px;}
+
+  .kanren li  {width: 50%;}
+
+  .kanren li:nth-child(3) {clear: both;}
+
+  .kanren     {padding: 10px;}
+
+}
+
+@media (min-width: 600px) {
+  .boxA-1:after {content: "";
+                display: block;
+                clear: both;}
+
+  .boxA-1 .gaiyou     {float: left;
+                      width: 50%;}
+
+  .boxA-1 .gaiyou:nth-child(odd)
+  {padding-right: 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  }
+
+  .boxA-1 .gaiyou:nth-child(even)
+  {padding-left: 15px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 767px){
+
+  .badge        {top: 30%;
+                right: 15px;}
+
+  .box4:after   {content: "";
+                display: block;
+                clear: both}
+
+  .box4-1 {float: left;
+          width: 50%;}
+
+  .box4-2 {float: left;
+          width: 50%;}
+  /*BOX4-1とBOX4-2の左右の間隔*/
+  .box4-1 {padding-right: 20px;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box}
+
+  .box4-2 {padding-left: 20px;
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box}
+
+  }
+
+@media (min-width: 768px){
+
+  .boxA::after  {content: "";
+              display: block;
+              clear: both;}
+/*BOX3とBOX4を横に並べる設定*/
+  .box3         {float: left;
+                width: 70%}
+
+  .box4         {float: left;
+                width: 30%}
+
+/*BOX3とBOX4の左右の問題*/
+  .box3         {padding-right: 50px;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box}
+
+/* ピックアップ */
+.pickup h1      {font-size: 30px;}
+}
+
+@media (min-width: 1040px){
+      .box1, .box2-inner, .boxA, .box5-inner
+        {width: 1000px;
+        margin-left: auto;
+        margin-right: auto}
+}
