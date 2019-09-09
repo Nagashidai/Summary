@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Youtubeの扉</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div id="home"></div>
+	<header>
+		<!-- <h1>Youtubeの扉</h1> -->
+		<img src="img/TitleImg.png" alt="ページタイトル">
+		<nav>
+			<ul>
+				<li class="current"><a href="#home">HOME</a></li>
+				<li class="current2"><a href="#howto">使い方</a></li>
+				<li class="current3"><a href="#contact">問い合わせ</a></li>
+			</ul>
+		</nav>	
+	</header>
+
+	<section>
+		<div class="playerBOX">
+			<div id="player">
+			</div>
+			<div class="stopButton">
+			</div>
+			<p class="stopMessage">Stop Change</p>
+			<!-- <p id="results"></p> -->
+		</div>
+	</section>
+
+	<section style="background-color: #f8f8f8;">
+		<div class="howto" id="howto">
+			<h1 data-subtitle="- Howto -" class="section-title">使い方</h1>
+			<p>人気のYoutube動画がひたすら流れるサイトです。</p>
+			<p>動画下のボタンを押すと切り替えが止まります。</p>
+			<p>未知の動画との出会いを楽しんで頂ければ幸いです。</p>
+			<!-- <p>オプションを選択すると流れる動画の属性が変化します。</p> -->
+		</div>
+	</section>
+
+	<section style="background-color: white">
+		<div class="contact">
+			<h1 data-subtitle="- Contact -" class="section-title">お問い合わせ</h1>
+		    <form class="form-style-9">
+			<ul>
+				<li>
+				    <input type="text" name="field1" class="field-style field-split align-left" placeholder="名前" />
+				    <input type="email" name="field2" class="field-style field-split align-right" placeholder="メールアドレス" />
+				</li>
+				<li>
+					<textarea name="field5" class="field-style" placeholder="本文"></textarea>
+				</li>
+				<li>
+					<input type="submit" value="Send Message" />
+				</li>
+			</ul>
+			</form>
+		</div>
+	</section>
+	<footer class="footer">
+		<p>&copy; RandomTube</p>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://www.youtube.com/iframe_api"></script>
+	<script type="text/javascript" src="tube.js"></script>
+</body>
+</html>
